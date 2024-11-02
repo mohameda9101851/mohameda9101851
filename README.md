@@ -1,16 +1,21 @@
-## Hi there 👋
+############# Hello, Friend! ##############
+###     /\                              ###
+###    /  \     _ __     __ _   _ __    ###
+###   / /\ \   | '_ \   / _` | | '_ \   ###
+###  / ____ \  | | | | | (_| | | | | |  ###
+### /_/    \_\ |_| |_|  \__,_| |_| |_|  ###
+###########################################
 
-<!--
-**mohameda9101851/mohameda9101851** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class About:
+    """
+    This class is about me! :D
+    """
+    def __init__(self):
+        self.nickname  = "Anan"
+        self.location  = ["Alexandira, Egypt", "Saudi Arabia"]
+        self.education = "BSc in Engineering & Technology"
+        self.languages = ["English", "Arabic"]
+        self.interests = ["Coding", "Crypto", "Finance", "Gaming"]
+        self.skills    = ["Python", "Javascript", "HTML", "CSS"]
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Mohamed_Anan = About()
